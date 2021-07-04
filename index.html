@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termék popup</title>
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="products">
+        <div class="product-card">
+            <div class="product-image">
+                <img id="open-popup" src="assets/img/cute-cat.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Kiscica</h5>
+                <h6>Ár: Megfizethetetlen</h6>
+            </div>
+        </div>
+        <div id="popup-container">
+            <div class="felso-sor">
+                <h2 class="popup-valassz">Válaszd különleges ajánlatunkat</h2>
+                <div id="close-popup"><img src="assets/img/close-popup.png"></div>
+
+            </div>
+            <div class="termek-adatok-container">
+                <div class="termek-informaciok">
+
+                    <div class="column-kicsi">
+                        <div class="kis-kepek-container">
+                            <div class="kis-kep-container">
+                                <img src="assets/img/termek-kep-kicsi-1.jpg">
+                            </div>
+                            <div class="kis-kep-container">
+                                <img src="assets/img/termek-kep-kicsi-2.jpg">
+                            </div>
+                            <div class="kis-kep-container">
+                                <img src="assets/img/termek-kep-kicsi-3.jpg">
+                            </div>
+                        </div>
+                        <div class="nagy-kep-container">
+                            <img class="nagy-kep" src="assets/img/termek-kep-kicsi-3.jpg">
+                        </div>
+
+                    </div>
+
+                    <div class="column-nagy">
+
+                        <div class="termek-neve">
+                            <span><span class="font-800">Miana</span> női szandál Arabella</span>
+                        </div>
+
+                        <div class="termek-ara">
+                            <div class="tenyleges-ar font-800">
+                                8.393 Ft
+                            </div>
+                            <div class="eredeti-ar">
+                                11.990 Ft
+                            </div>
+                            <div class="akcio-merteke font-800">
+                                30%
+                            </div>
+                        </div>
+
+                        <div class="termek-meret-container">
+                            <div class="termek-meret-cim">
+                                Méret
+                            </div>
+                            <div class="meret-dobozok-container">
+                                <div class="meret-doboz">37</div>
+                                <div class="meret-doboz">39</div>
+                                <div class="meret-doboz">40</div>
+                                <div class="meret-doboz">41</div>
+                                <div class="meret-doboz">42</div>
+                            </div>
+                        </div>
+
+                        <div class="termek-quantity-add-to-cart-container">
+                            <div class="quantity-container">
+                                <div id="quantity">
+                                    <button type="button" id="sub" class="sub">-</button>
+                                    <input class="quantity-box-number" type="text" value="1" min="1" max="999" />
+                                    <button type="button" id="add" class="add active-quantity">+</button>
+                                </div>
+                            </div>
+                            <div clas="add-to-cart-button-container">
+                                <button class="add-to-cart-button">
+                                    <span class="button-image-before-text">
+                                    </span>
+                                    <span class="add-to-cart-text-on-small">
+                                        Kosárba
+                                    </span>
+                                    <span class="add-to-cart-text-on-large">
+                                        Kosárba teszem
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="lenyilo-menuk">
+                    <button class="accordion">Termék információ</button>
+                    <div class="panel">
+                        <p>
+                            Miana Női Cipő a cég 2020 tavaszi/nyári választékából. Magyarországi vezető divat,
+                            üzletünkből! Miana márka hivatalos forgalmazó divat shop! |markasbolt.hu a márkásbolt.hu
+                            legsikeresebb kollekciójából.
+                        </p>
+                        <p>
+                            Ez a Miana Női Cipő sárga színben. Gardróbodból nem hiányozhat
+                            a fiatalos hétköznapokra minden trendi nő számára ajánlatos.
+                        </p>
+                        <p>
+                            Miana női szandál ARABELLA rendkívül jó tulajdonságokkal rendelkezik, anyaga Felsőrész: 50%
+                            Szintetikus, 50% Textil, Bélés: 100% Textil, Talp: 100% Szintetikus, melynek köszönhető,
+                            hogy magas minőséget biztosít, felejthetetlen életérzést ad és remek kinézetet áraszt
+                            viselőjének. Mindenkinek ajánljuk divatos,utcai,hétköznapi viseletre.
+                        </p>
+                    </div>
+                    <hr class="lenyilo-menu-elvalaszto-vonal">
+                    <button class="accordion">Mérettáblázat</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
